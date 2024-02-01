@@ -1,4 +1,4 @@
 # notable-sockwear
-Built using Bootstrap, HTMl & CSS
+Built using Javascript, Bootstrap, HTML & CSS
 
 View the live deployement [here](https://campbell-15.github.io/notable-sockwear/)
