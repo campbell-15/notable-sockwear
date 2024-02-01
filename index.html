@@ -273,7 +273,7 @@
 		
 							<div class="row col-mb-50 mb-0">
 
-								<h2 style="font-size: 60px;">About Us</h2>
+								<h2 class="customh2">About Us</h2>
 		
 								<div class="col-lg-4">
 		
@@ -339,27 +339,95 @@
 							</div>
 						</div>
 
-				<div class="section bg-white my-0 my-lg-5 py-0">
-					<div class="container py-5 rounded-6" style="background: url('demos/speaker/images/section-4.jpg') no-repeat 25% 100% / cover;">
-						<div class="row justify-content-end align-items-md-center min-vh-60 mw-md">
-							<div class="col-md-7 col-lg-5">
-								<p class="mb-2 color">Get 20% off* your first Order</p>
-								<h3 class="display-6 lh-sm mb-5">Bring your Music at your home</h3>
-								<div class="subscribe-widget" data-loader="button">
-									<div class="widget-subscribe-form-result"></div>
-									<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0">
-										<div class="input-group input-group-lg">
-											<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email Address">
-											<button class="btn btn-dark h-bg-color border-0" type="submit"><i class="bi-arrow-right"></i></button>
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				
 			</div>
 		</section><!-- #content end -->
+
+		<!-- contact us section  -->
+		<div class="row">
+			<!-- Contact Form Overlay
+			============================================= -->
+			<div class="contact-form-overlay col-md-8 offset-md-2 p-5">
+
+				<div class="fancy-title title-border">
+					<h2 class="customh2">Conatct Us</h2>
+				</div>
+
+				<div class="form-widget">
+
+					<div class="form-result"></div>
+
+					<!-- Contact Form
+					============================================= -->
+					<form class="row mb-0" id="template-contactform" name="template-contactform" action="include/form.php" method="post">
+
+						<div class="col-md-6 form-group">
+							<label for="template-contactform-name">Name <small>*</small></label>
+							<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="form-control required">
+						</div>
+
+						<div class="col-md-6 form-group">
+							<label for="template-contactform-email">Email <small>*</small></label>
+							<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email form-control">
+						</div>
+
+						<div class="w-100"></div>
+
+						<div class="col-md-6 form-group">
+							<label for="template-contactform-phone">Phone</label>
+							<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="form-control">
+						</div>
+
+						<div class="col-md-6 form-group">
+							<label for="template-contactform-service">Type of Enquiry</label>
+							<select id="template-contactform-service" name="template-contactform-service" class="form-select">
+								<option value="">-- Select One --</option>
+								<option value="NewProducts">New Products</option>
+								<option value="ReturnsOrExchanges">Returns or Exchanges</option>
+								<option value="TrackingOrderStatus">Tracking Order Status</option>
+								<option value="LookingForAnItemInStock">Looking for an item in stock</option>
+							</select>
+						</div>
+
+						<div class="w-100"></div>
+
+						<div class="col-12 form-group">
+							<label for="template-contactform-subject">Subject <small>*</small></label>
+							<input type="text" id="template-contactform-subject" name="subject" value="" class="required form-control">
+						</div>
+
+						<div class="col-12 form-group">
+							<label for="template-contactform-message">Message <small>*</small></label>
+							<textarea class="required form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
+						</div>
+
+						<div class="col-12 form-group d-none">
+							<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="form-control">
+						</div>
+
+						<div class="col-12 form-group">
+							<button class="button button-3d m-0" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
+						</div>
+
+						<input type="hidden" name="prefix" value="template-contactform-">
+
+					</form>
+				</div>
+
+				<div class="line"></div>
+
+				<div class="row col-mb-50">
+					<!-- Contact Info
+					============================================= -->
+					<div class="col-md-4">
+						<address>
+							<strong>Headquarters:</strong><br>
+							116 Oxford Street,<br>
+							Rosebank, Sandton<br>
+						</address>
+						<abbr title="Phone Number"><strong>Phone or WhatsApp:</strong></abbr> +27 79 272 6146<br>
+						<abbr title="Email Address"><strong>Email:</strong></abbr> info@notablesockwear.com
+					</div><!-- Contact Info End -->
 
 		<!-- Footer
 		============================================= -->
